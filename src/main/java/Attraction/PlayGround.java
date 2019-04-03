@@ -11,15 +11,6 @@ public class PlayGround extends Attraction implements ISecurity {
         this.price = price;
     }
 
-//    public double defaultPrice(){
-//        return this.price;
-//    }
-//
-//    public double priceFor(Visitor visitor){
-//        if (visitor.getMoney == this.price){
-//            return visitor.getMoney;
-//        }
-//    }
 
     public double getPrice(){
         return this.price;
@@ -32,10 +23,4 @@ public class PlayGround extends Attraction implements ISecurity {
         return false;
     }
 
-    public int getRating(){
-        return this.rating;
-    }
-    public String getName(){
-        return this.name;
-    }
 }

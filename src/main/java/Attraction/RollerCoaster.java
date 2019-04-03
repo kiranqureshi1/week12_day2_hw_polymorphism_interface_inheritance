@@ -20,13 +20,6 @@ public class RollerCoaster extends Attraction implements ISecurity, ITicketed {
         return false;
     }
 
-    public int getRating(){
-        return this.rating;
-    }
-    public String getName(){
-        return this.name;
-    }
-
     public double defaultPrice(){
         return this.price;
     }

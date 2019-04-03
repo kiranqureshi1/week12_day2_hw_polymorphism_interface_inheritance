@@ -44,10 +44,10 @@ public class ThemePark {
         return this.Ireviewed;
     }
 
-    public String getAllReviewsString(){
-        for (place : Ireviewed){
-           place.
-        }
-
-    }
+//    public String getAllReviewsString(){
+//        for (place : Ireviewed){
+//           place.
+//        }
+//
+//    }
 }

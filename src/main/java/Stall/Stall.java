@@ -1,5 +1,6 @@
 package Stall;
 
+import core.Visitor;
 import interfaces.IReviewed;
 import interfaces.ITicketed;
 
@@ -23,5 +24,15 @@ public abstract class Stall implements IReviewed, ITicketed {
     }
     public String getName(){
         return this.name;
+    }
+
+    public double defaultPrice(){
+        return this.price;
+    }
+    public double priceFor(Visitor visitor){
+        double newPrice = 0.0;
+        if (visitor.getHeight() > 200){
+            newPrice = this.price * 2;
+        } return newPrice;
     }
 }

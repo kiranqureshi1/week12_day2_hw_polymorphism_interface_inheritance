@@ -6,10 +6,4 @@ public class Park extends Attraction{
         super(name, rating);
     }
 
-    public int getRating(){
-        return this.rating;
-    }
-    public String getName(){
-        return this.name;
-    }
 }
